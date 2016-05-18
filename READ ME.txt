@@ -1,0 +1,114 @@
+=======================================================================================
+
+
+CODE FOR SIMULATION OF ORIGAMI STRUCTURES WITH SMOOTH ELASTIC FOLDS
+
+
+=======================================================================================
+
+
+CODE USES: 
+- MATLAB (required)
+- MATLAB's Parallel Computing Toolbox (for optional use)
+
+
+=======================================================================================
+
+
+TO EXECUTE THE SIMULATION:
+- Open and Run in MATLAB the corresponding .m file with file name starting with INPUT
+
+
+=======================================================================================
+
+
+COMMENTS:
+- The code reproduces the results presented in the paper described below
+- The user can easily modify the fold patterns, material parameters, and applied loads 
+  in the script
+
+
+=======================================================================================
+
+
+PAPER TITLE: 
+Modeling and analysis of origami structures with smooth folds
+
+AUTHORS: 
+Edwin A. Peraza Hernandez, Darren J. Hartl, Ergun Akleman, and Dimitris C. Lagoudas
+
+CONFERENCE: 
+Symposium on Solid & Physical Modeling 2016
+
+JOURNAL: 
+Computer-Aided Design
+
+DOI: 
+http://dx.doi.org/10.1016/j.cad.2016.05.010
+
+URL: 
+http://www.sciencedirect.com/science/article/pii/S0010448516300306
+
+KEYWORDS: 
+origami, folding, smooth folds, modeling, elastic
+
+ABSTRACT: 
+Origami has the potential to impact numerous areas of design and manufacturing. Modeling 
+and analysis of origami structures allow for the understanding of their behavior and the 
+development of computational tools for their design. Most available origami models are 
+limited to the idealization of folds as creases of zeroth-order geometric continuity, 
+which is not proper for origami structures having non-negligible fold thickness or with 
+maximum curvature at the folds restricted by material limitations. Structural analysis of 
+origami sheets having creased folds requires further idealizations of the fold mechanical 
+response such as the representation of the folds as torsional springs. In view of this, a 
+novel model analogous to that for rigid origami is presented in this work for origami 
+structures having folds of non-zero surface area that exhibit higher-order geometric 
+continuity (termed smooth folds). This origami model allows for a proper structural 
+analysis of origami sheets using plate or shell representations for the folds. The shape 
+formulation of the smooth folds and the kinematic constraints on their associated shape 
+variables are presented. Modeling of origami structures with smooth folds exhibiting 
+elastic behavior is performed by determining the configuration of the structure that 
+minimizes its total potential energy subject to the derived kinematic constraints. The 
+presented results show that the structural response determined using the proposed model is 
+in good agreement with both experiments and higher-fidelity finite element analyses.
+
+
+ACKNOWLEDGMENT: 
+This work was supported by the National Science Foundation and the Air Force Office of 
+Scientific Research under grant EFRI-1240483. Any opinions, findings, conclusions or 
+recommendations are those of the authors and do not necessarily reflect the views of the 
+National Science Foundation or the U.S. Air Force.
+
+
+=======================================================================================
+
+
+COMMENTS/SUGGESTIONS:
+Send email to:
+Edwin Alexander Peraza Hernandez
+perazahernandez@gmail.com
+
+
+=======================================================================================
+
+
+Copyright (c) 2016 Edwin Alexander Peraza Hernandez. All rights reserved.
+
+TERMS OF USE:
+
+1. Non-commercial redistribution is allowed if and only if the complete set of files is 
+distributed without any modification and including this document
+
+2. Any use/modification of the code is allowed provided that any resulting works including 
+research publications, exhibitions, and educational workshops express a proper reference to 
+the related paper listed above
+
+3. Any other type of usage of the code requires the authors' explicit permission.
+Email: perazahernandez@gmail.com, darren.hartl@tamu.edu
+
+
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING 
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS WITH THE CODE.
